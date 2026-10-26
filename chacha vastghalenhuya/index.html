@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar md:navbar-expand bg-1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
+      <div class="drawer-header">
+        <h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+      </div>
+      <div class="drawer-body mb-2 md:mb-0">
+        <ul class="nav navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" type="button" data-bs-toggle="menu" aria-expanded="false">
+              Menu
+            </button>
+            <div class="menu">
+              <a class="menu-item" href="#">Action</a>
+              <a class="menu-item" href="#">Another action</a>
+              <hr class="menu-divider">
+              <a class="menu-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="hstack gap-2" role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn-solid btn-icon theme-secondary" type="submit">
+            <svg class="bi" width="16" height="16"><use href="#search" /></svg>
+          </button>
+        </form>
+      </div>
+    </dialog>
+  </div>
+</nav>
+<br>
+<br> 
+<br>
+<div>
+  <h1>marks
+  </h1>
+  <label for="sizesInputSmall" class="form-label">Small input</label>
+  <input class="form-control form-control-sm" type="text" id="sizesInputSmall" placeholder="Small input" aria-label="Small input example">
+</div>
+<div>
+  <label for="sizesInputDefault" class="form-label">Default input</label>
+  <input class="form-control" type="text" id="sizesInputDefault" placeholder="Default input" aria-label="Default input example">
+</div>
+<div>
+  <label for="sizesInputLarge" class="form-label">Large input</label>
+  <input class="form-control form-control-lg" type="text" id="sizesInputLarge" placeholder="Large input" aria-label="Large input example">
+</div>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">class</th>
+      <th scope="col">highest</th>
+      <th scope="col">lowest</th>
+      <th scope="col">average</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">6</th>
+      <td id="123">97</td>
+      <td>44</td>
+      <td>77</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td id="123">95</td>
+      <td>21</td>
+      <td>83</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td id="123">99</td>
+      <td>65</td>
+      <td>90</td>
+    </tr>
+  </tbody>
+
+<br>
+<br> 
+need help ?
+<ol class="stepper">
+  <li class="stepper-item active">open web page marks.com</li>
+  <li class="stepper-item active">Confirm network assurance</li>
+  <li class="stepper-item">check marks</li>
+  <li class="stepper-item">inform at school</li>
+</ol>
+<h2>end of the page</h2>
+<button type="button" class="btn-close" aria-label="Close"></button>
+</body>
+</html>
